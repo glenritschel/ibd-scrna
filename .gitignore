@@ -1,0 +1,20 @@
+# Raw data
+data/raw/GSE134809/*.tsv.gz
+data/raw/GSE134809/*.mtx.gz
+data/raw/GSE134809/*.tar
+# Processed
+data/processed/*.h5ad
+data/processed/lincs_results_raw.csv
+# Python
+__pycache__/
+*.py[cod]
+# Jupyter
+.ipynb_checkpoints/
+# OS
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+# Logs
+logs/*.log
+# Keep gitkeep
+!**/.gitkeep
